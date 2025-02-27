@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,61 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-        input { margin: 5px; padding: 8px; font-size: 16px; }
-        button { padding: 10px 15px; font-size: 16px; cursor: pointer; }
-        #risultato { margin-top: 20px; font-weight: bold; }
-        #container { display: flex; flex-direction: column;align-items: center;}
-    </style>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    input {
+        margin: 5px;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #risultato {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
 
 
 
 
 <body>
-<div id="container">
-    <input type="text" placeholder="inserisci la prima parola" name="" id="parola1">
-    <input type="text" placeholder="inserisci la seconda parola" name="" id="parola2">
-    <button onclick="verifica()" id="bottoneVerifica">Verifica anagrammi</button>
-    <div id="risultato"></div>
-</div>
+    <div id="container">
+        <input type="text" placeholder="inserisci la prima parola" name="" id="parola1">
+        <input type="text" placeholder="inserisci la seconda parola" name="" id="parola2">
+        <button onclick="verifica()" id="bottoneVerifica">Verifica anagrammi</button>
+        <div id="risultato"></div>
+    </div>
 
-<!-- <div>
+    <div>
+        <ul id="lista2">
+        </ul>
+        <button id="bottone2">aggiungi array</button>
+    </div>
+
+    <ul id="divRosso" style="background-color: red;">
+
+    </ul>
+    
+
+    
+    <!-- <div>
     <h1>Lista dinamica</h1>
 
     <ul id="miaLista">
@@ -47,15 +83,10 @@
     <!-- <script src="modificaColore.js"></script> -->
     <!-- <script src="esercizioWhile.js"></script> -->
     <!-- <script src="studioArray.js"></script> -->
-    
+    <!-- <script src="anagrammi.js"></script> -->
+    <script src="cicli.js"></script>
 
-     <script src="anagrammi.js"></script>
 
-     
-    
 </body>
+
 </html>
-
-
-
-
